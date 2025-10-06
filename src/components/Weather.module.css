@@ -1,0 +1,71 @@
+.weatherContainer{
+    background-color: #FDFFEF;
+    border-radius: 1em;
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 10px;
+}
+.inputCity{
+    display: flex;
+    padding: 1.5em;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.searchIcon img{
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.inputField input{
+    padding: 14px 10px;
+    border-radius: 2em;
+    outline: none;
+    border: none;
+}
+.inputField input::placeholder{
+    font-style: italic;
+}
+.weatherInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.weatherInfo .weatherImage{
+    width: 100px;
+    height: auto;
+}
+.weatherInfo .cityName{
+    font-weight: bold;
+    font-size: 20px
+}
+.weatherInfo .weatherSummary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.extraWeatherInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    gap: 15px;
+    border-width: 60%;
+}
+.extraWeatherInfo .Humidity .humidity{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    background-color: white;
+}
+.extraWeatherInfo .windSpeed .WindSpeed{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    background-color: white;
+}
