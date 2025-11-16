@@ -18,7 +18,7 @@ const WeatherApp = () => {
     const [weather, setWeather] = useState<weatherData | null>(null);
     const [city, setCity] = useState<string>("Nairobi");
 
-    // Use your already imported images
+   
 const iconImages: Record<weatherIcon, string> = {
     'rain': rain, 
     'cloudy': cloudy, 
@@ -26,7 +26,7 @@ const iconImages: Record<weatherIcon, string> = {
     'snow': snow,
     'thunderstorm': thunderstorm,
     'lightShowers': lightShowers,
-    'atmosphere': atmosphere // Replace with actual atmosphere import
+    'atmosphere': atmosphere 
 };
     const updateWeatherInfo = async (city: string): Promise<weatherData> => {
         try {
